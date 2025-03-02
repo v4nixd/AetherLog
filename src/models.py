@@ -8,6 +8,6 @@ class AetherConfig:
     """
     def __init__(
             self,
-            template: str | None = "{level} {time} - {content}"
-    ):
+            template: str | None = "{level} | {time} | {content}"
+    ) -> None:
         self.template = template
